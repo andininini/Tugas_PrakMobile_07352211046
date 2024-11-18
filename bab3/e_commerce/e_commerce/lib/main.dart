@@ -161,7 +161,7 @@ class HomePage extends StatelessWidget {
                     width: 200, // Lebar gambar
                     height: 200, // Tinggi gambar
                     child: Image.asset(
-                      'assets/images/ayang.png', // Ganti dengan path gambar PNG kamu
+                      'assets/images/i.jpg', // Ganti dengan path gambar PNG kamu
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -183,13 +183,13 @@ class HomePage extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       children: [
                         TopSeller(
-                            'assets/images/ayangakuh.png', 'Toko 1', 4.5),
+                            'assets/images/i.jpg', 'Toko 1', 4.5),
                         TopSeller(
-                            'assets/images/ayangakuh.png', 'Toko 2', 4.7),
+                            'assets/images/b.jpg', 'Toko 2', 4.7),
                         TopSeller(
-                            'assets/images/ayangakuh.png', 'Toko 3', 4.5),
+                            'assets/images/a.jpg', 'Toko 3', 4.5),
                         TopSeller(
-                            'assets/images/ayangakuh.png', 'Toko 4', 4.8),
+                            'assets/images/i.jpg', 'Toko 4', 4.8),
                       ],
                     ),
                   ),
@@ -244,7 +244,7 @@ class HomePage extends StatelessWidget {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
                                 image: const DecorationImage(
-                                  image: AssetImage('images/ayangakuh.png'),
+                                  image: AssetImage('assets/images/i.jpg'),
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -268,11 +268,11 @@ class HomePage extends StatelessWidget {
                                   const CircleAvatar(
                                     radius: 25,
                                     backgroundImage:
-                                        AssetImage('images/ayangakuh.png'),
+                                        AssetImage('assets/images/b.jpg'),
                                   ),
                                   const SizedBox(height: 2),
                                   const Text(
-                                    'Kim Taehyung',
+                                    'Skincare',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 15,
@@ -280,7 +280,7 @@ class HomePage extends StatelessWidget {
                                     ),
                                   ),
                                   const Text(
-                                    'Idol Kpop',
+                                    'skincare',
                                     style: TextStyle(
                                       fontSize: 11,
                                       color: Colors.purple,
@@ -288,7 +288,7 @@ class HomePage extends StatelessWidget {
                                   ),
                                   const SizedBox(height: 5),
                                   const Text(
-                                    'Taehyung adalah suami aku',
+                                    'mencerahkan',
                                     style: TextStyle(
                                       fontSize: 11,
                                       color: Colors.purple,
@@ -331,7 +331,7 @@ class HomePage extends StatelessWidget {
                                           ),
                                         ),
                                         child: const Text(
-                                          'Book Now',
+                                          'Buy Now',
                                           style: TextStyle(color: Colors.white),
                                         ),
                                       )
@@ -365,42 +365,42 @@ class HomePage extends StatelessWidget {
                 childAspectRatio: 0.75, // Rasio tinggi dan lebar card
                 children: [
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/i.jpg',
                     productName: 'Produk 1',
                     productPrice: 'Rp 150.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/b.jpg',
                     productName: 'Produk 2',
                     productPrice: 'Rp 120.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/a.jpg',
                     productName: 'Produk 3',
                     productPrice: 'Rp 180.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/b.jpg',
                     productName: 'Produk 4',
                     productPrice: 'Rp 200.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/i.jpg',
                     productName: 'Produk 4',
                     productPrice: 'Rp 200.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/b.jpg',
                     productName: 'Produk 5',
                     productPrice: 'Rp 120.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/i.jpg',
                     productName: 'Produk 5',
                     productPrice: 'Rp 50.000',
                   ),
                   ProductCard(
-                    imagePath: 'assets/images/ayang.png',
+                    imagePath: 'assets/images/b.jpg',
                     productName: 'Produk 6',
                     productPrice: 'Rp 280.000',
                   ),
